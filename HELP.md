@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name 'sptech.school.nail-api' is invalid and this project uses 'sptech.school.nail_api' instead.
+* The original package username 'sptech.school.nail-api' is invalid and this project uses 'sptech.school.nail_api' instead.
 
 # Getting Started
 
