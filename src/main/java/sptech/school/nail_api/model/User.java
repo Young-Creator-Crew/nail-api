@@ -6,7 +6,7 @@ public class User {
 
     private Integer id;
     private String email;
-    private String user_password;
+    private String password;
     private String username;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
@@ -14,16 +14,16 @@ public class User {
     public User() {
     }
 
-    public User(String email, String user_password, String username) {
+    public User(String email, String password, String username) {
         this.email = email;
-        this.user_password = user_password;
+        this.password = password;
         this.username = username;
     }
 
-    public User(Integer id, String email, String user_password, String username, LocalDateTime createdAt, LocalDateTime updatedAt) {
+    public User(Integer id, String email, String password, String username, LocalDateTime createdAt, LocalDateTime updatedAt) {
         this.id = id;
         this.email = email;
-        this.user_password = user_password;
+        this.password = password;
         this.username = username;
         this.createdAt = createdAt;
         this.updatedAt = updatedAt;
@@ -45,12 +45,12 @@ public class User {
         this.email = email;
     }
 
-    public String getUserPassword() {
-        return user_password;
+    public String getPassword() {
+        return password;
     }
 
-    public void setUserPassword(String password) {
-        this.user_password = password;
+    public void setPassword(String password) {
+        this.password = password;
     }
 
     public String getUsername() {
